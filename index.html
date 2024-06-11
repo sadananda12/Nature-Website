@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nature</title>
+    <!-- bootstrap css link -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+      integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+      crossorigin="anonymous"
+    />
+    <!-- bootstrap js link -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+      crossorigin="anonymous"
+    ></script>
+    <!-- external css link -->
+    <link rel="stylesheet" href="./style.css"/>
+  </head>
+  <body>
+    <!-- header starts -->
+    <header>
+      <!-- navbar starts -->
+      <div class="container">
+        <nav
+          class="navbar navbar-expand-lg navbar-light bg-transparent"
+          id="nav"
+        >
+          <a class="navbar-brand" href="#" id="nav-logo">
+            <img
+              src="./logo-white.svg"
+              alt="nav_logo"
+              class="nav-logo-image"
+            />
+          </a>
+          <button
+            id="nav-toggle-icon"
+            class="navbar-toggler nav-toggle"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto nav-link-bg">
+              <li class="nav-item active">
+                <a class="nav-link" href="#"
+                  >Home <span class="sr-only">(current)</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+            <button>202-555-0188</button>
+          </div>
+        </nav>
+      </div>
+      <!-- navbar ends -->
+
+      <!-- bg carousel starts -->
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide banner-images"
+        data-ride="carousel"
+      >
+        <ol class="carousel-indicators">
+          <li
+            data-target="#carouselExampleIndicators"
+            data-slide-to="0"
+            class="active"
+          ></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active carousel1"></div>
+          <div class="carousel-item carousel2"></div>
+          <div class="carousel-item carousel3"></div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-target="#carouselExampleIndicators"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-target="#carouselExampleIndicators"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </button>
+      </div>
+      <!-- bg carousel starts -->
+
+      <!-- banner starts -->
+      <div class="container">
+        <div class="banner">
+          <h1>we all love <span>nature</span></h1>
+          <p>
+            Look deep into nature, and you will understand everything better.
+          </p>
+          <button class="button">Get Started</button>
+        </div>
+      </div>
+      <!-- banner ends -->
+    </header>
+    <!-- header ends -->
+
+    <main>
+      <!-- services sec starts -->
+      <section>
+        <div class="container">
+          <div class="services-sec flex-col">
+            <h2 class="text-color">Our Services</h2>
+            <hr class="services-sec-heading-bottom-line" />
+            <div class="row services-sec-row">
+              <div class="col">
+                <img src="./service-1.jpg" alt="service_image" />
+                <h3 class="text-color">Web Design</h3>
+                <p class="sec-para">
+                  Focus on how you can help and benefit your user. Use simple
+                  words so that you don't confuse people.
+                </p>
+              </div>
+              <div class="col">
+                <img src="./service-2.jpg" alt="service_image" />
+                <h3 class="text-color">Graphic Design</h3>
+                <p class="sec-para">
+                  Focus on how you can help and benefit your user. Use simple
+                  words so that you don't confuse people.
+                </p>
+              </div>
+              <div class="col">
+                <img src="./service-3.jpg" alt="service_image" />
+                <h3 class="text-color">Content Creation</h3>
+                <p class="sec-para">
+                  Focus on how you can help and benefit your user. Use simple
+                  words so that you don't confuse people.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- services sec ends -->
+
+      <!-- quotes sec starts -->
+      <section>
+        <div class="quotes-sec">
+          <div class="container">
+            <div class="quotes-sec-content flex-col">
+              <img src="./quotes.svg" alt="quotes" class="quotes" />
+              <p class="text-color">
+                “Original and with an innate understanding of their customer's
+                needs, the team at Love Nature are always a pleasure to work
+                with.”
+              </p>
+              <img
+                src="./avatar.png"
+                alt="avatar_image"
+                class="avatar-image"
+              />
+              <span>Jane Miller</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- quotes sec ends -->
+
+      <!-- about sec starts -->
+      <section>
+        <div class="container">
+          <div class="about-sec">
+            <div class="row">
+              <div class="col">
+                <h2>ABOUT US</h2>
+                <p class="about-sec-para1">
+                  Tell website visitors who you are and why they should choose
+                  your business.
+                </p>
+                <p class="about-sec-para2 sec-para">
+                  Because when a visitor first lands on your website, you’re a
+                  stranger to them. They have to get to know you in order to
+                  want to read your blog posts, subscribe to your email
+                  newsletter, or buy what you’re selling.
+                </p>
+                <button class="button">Find Out More</button>
+              </div>
+              <div class="col">
+                <img
+                  src="./leaf.jpg"
+                  alt="leaf_image"
+                  class="about-sec-image"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- about sec ends -->
+
+      <!-- questions sec starts -->
+      <section>
+        <div class="questions-sec">
+          <div class="container">
+            <div class="questions-sec-content flex-col">
+              <h2>QUESTIONS?</h2>
+              <p class="sec-para">
+                Whether you're curious about features, a free trial, or even
+                press, we're here to answer any questions.
+              </p>
+              <button class="button">Let's Talk Now</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- questions sec ends -->
+    </main>
+
+    <!-- footer starts -->
+    <footer>
+      <div class="container">
+        <div class="footer-row">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+          <a href="#">
+            <img
+              src="./logo-green.svg"
+              alt="footer-logo"
+              class="footer-logo"
+            />
+          </a>
+          <span>Love Nature by Tyler Moore</span>
+        </div>
+      </div>
+    </footer>
+    <!-- footer ends -->
+  </body>
+</html>

@@ -1,0 +1,1387 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    border-style: none;
+}
+body{
+    overflow-x: hidden;
+}
+.button{
+    height: 50px;
+    width: 160px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    border-radius: 5px;
+}
+.text-color{
+    color: rgb(82, 104, 65);
+}
+.flex-col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sec-para{
+    font-size: 19px;
+    color: rgb(144, 171, 123);
+    line-height: 33px;
+}
+
+/* header starts */
+header{
+    height: 720px;
+    position: relative;
+}
+.banner-images{
+    top: 0px;
+    position: absolute;
+    width: 100%;
+}
+.carousel1{
+    height: 720px;
+    background-image: url(./banner\ 1.jpg);
+    background-size: 100% 100%;
+    background-color: rgb(149, 149, 149);
+    background-blend-mode: multiply;
+}
+.carousel2{
+    height: 720px;
+    width: 100%;
+    background-image: url(./banner\ 2.jpg);
+    background-size: 100% 100%;
+    background-color: rgb(149, 149, 149);
+    background-blend-mode: multiply;
+}
+.carousel3{
+    height: 720px;
+    width: 100%;
+    background-image: url(./banner\ 3.jpg);
+    background-size: 100% 100%;
+    background-color: rgb(149, 149, 149);
+    background-blend-mode: multiply;
+}
+/* navbar starts */
+#nav{
+    z-index: 2;
+    top: 0px;
+
+}
+#nav-logo{
+    margin-right: 485px!important;
+    
+}
+#nav-toggle-icon{
+    width: 80px!important;
+}
+#nav a{
+    margin-right: 20px;
+    color: white;
+    font-size: 18px;
+}
+#nav button{
+    height: 50px;
+    width: 160px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    border-radius: 5px;
+
+}
+#nav-toggle-icon{
+    margin-top: 5px;
+    background-color: white!important;
+}
+/* navbar ends */
+.banner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: white;
+}
+h1{
+    line-height: 80px;
+    font-size: 55px;
+}
+h1 span{
+    display: block;
+    font-size: 120px;
+}
+.banner p{
+    padding-top: 40px;
+    padding-bottom: 30px;
+    font-size: 18px;
+    width: 300px;
+    text-align: center;
+}
+.banner button{
+    transition: 0.2s;
+    background-color: rgb(255, 217, 54);
+    border: none;
+    color: rgb(69, 69, 69);
+}
+.banner button:hover{
+    transition: 0.2s;
+    background-color: rgb(234, 200, 51);
+
+}
+/* navbar ends */
+/* header ends */
+
+/* services sec starts */
+.services-sec{
+    padding: 80px 0px;
+}
+.services-sec h2{
+    font-size: 50px;
+    font-weight: 400;
+}
+.services-sec-heading-bottom-line{
+    border: 2px solid rgb(255, 217, 54);
+    width: 120px;
+    margin-bottom: 80px;
+}
+.services-sec h3{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    font-weight: 400;
+}
+.services-sec p{
+    width: 350px;
+}
+.services-sec img{
+    width: 350px;
+}
+/* services sec ends */
+
+
+/* quotes sec starts */
+.quotes-sec{
+    padding: 70px 0px;
+    background-color: rgb(246, 248, 245);
+}
+.quotes{
+    opacity: 0.3;
+}
+.quotes-sec p{
+    margin: 30px 0px;
+    font-size: 35px;
+    width: 800px;
+    text-align: center;
+}
+.avatar-image{
+    height: 80px;
+}
+.quotes-sec-content span{
+    margin-top: 10px;
+    font-size: 20px;
+    color: black;
+}
+/* quotes sec ends */
+
+
+/* about sec starts */
+.about-sec{
+    padding: 70px 0px;
+}
+.about-sec h2{
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(112, 142, 90);
+}
+.about-sec-para1{
+    margin: 20px 0px 60px 0px;
+    font-size: 42px;
+    line-height: 55px;
+    color: rgb(90, 121, 68);
+}
+.about-sec button{
+    margin-top: 20px;
+    color: rgb(109, 139, 86);
+    border: 1px solid rgb(109, 139, 86);
+}
+.about-sec img{
+    margin-left: 70px;
+}
+/* about sec ends */
+
+
+/* questions sec starts */
+.questions-sec{
+    padding: 120px 0px;
+    background-image: url(./banner\ 2.jpg);
+    background-size: cover;
+    background-color: rgb(146, 146, 146);
+    background-blend-mode: multiply;
+}
+.questions-sec h2{
+    font-size: 60px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+}
+.questions-sec p{
+    margin: 30px 0px;
+    width: 500px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+}
+.questions-sec button{
+    transition: 0.2s;
+    background-color: rgb(255, 217, 54);
+    border: none;
+    color: rgb(69, 69, 69);
+}
+.questions-sec button:hover{
+    transition: 0.2s;
+    background-color: rgb(234, 200, 51);
+
+}
+/* questions sec ends */
+
+/* footer starts */
+footer{
+    padding: 20px 0px;
+    position: relative;
+}
+footer ul{
+    transform: translateY(9px);
+    display: flex;
+    align-items: center;
+}
+footer a{   
+    font-size: 16px;
+    margin-right: 20px;
+    color: rgb(65, 94, 44);
+}
+footer a:hover{
+    text-decoration: none;
+}
+.footer-logo{
+    height: 50px;
+    transform: translateX(-30px);
+}
+.footer-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-row span{
+    color: rgb(65, 94, 44);
+}
+/* footer ends */
+
+
+/* media quries */
+/* xs screen starts */
+@media (max-width:575.98px){
+    .button{
+        height: 50px;
+        width: 160px;
+        border: 1px solid white;
+        background-color: transparent;
+        color: white;
+        border-radius: 5px;
+    }
+    .text-color{
+        color: rgb(82, 104, 65);
+    }
+    .flex-col{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .sec-para{
+        font-size: 19px;
+        color: rgb(144, 171, 123);
+        line-height: 33px;
+    }
+    /* header starts */
+    /* navbar starts */
+    #nav{
+        z-index: 2;
+        top: 0px;
+        background-color: aqua;
+    
+    }
+    #nav-logo{
+        margin-right: 0px!important;
+    }
+    .nav-logo-image{
+        margin-top: 10px;
+        height: 60px;
+    }
+    #nav a{
+        margin-right: 20px;
+        color: white;
+        font-size: 18px;
+    }
+    /* navbar ends */
+    header{
+        position: relative;
+        height: 720px;
+     
+        
+    }
+    .carousel1{
+        height: 720px;
+        background-image: url(./banner\ 1.jpg);
+        background-size: 100% 100%;
+        background-color: rgb(149, 149, 149);
+        background-blend-mode: multiply;
+    }
+    .carousel2{
+        height: 720px;
+        width: 100%;
+        background-image: url(./banner\ 2.jpg);
+        background-size: 100% 100%;
+        background-color: rgb(149, 149, 149);
+        background-blend-mode: multiply;
+    }
+    .carousel3{
+        height: 720px;
+        width: 100%;
+        background-image: url(./banner\ 3.jpg);
+        background-size: 100% 100%;
+        background-color: rgb(149, 149, 149);
+        background-blend-mode: multiply;
+    }
+    .banner{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        text-align: center;
+        color: white;
+    }
+    h1{
+        line-height: 80px;
+        font-size: 55px;
+    }
+    h1 span{
+        display: block;
+        font-size: 80px;
+    }
+    .banner p{
+        padding-top: 40px;
+        padding-bottom: 30px;
+        font-size: 18px;
+        width: 300px;
+        text-align: center;
+    }
+    .banner button{
+        transition: 0.2s;
+        background-color: rgb(255, 217, 54);
+        border: none;
+        color: rgb(69, 69, 69);
+    }
+    .banner button:hover{
+        transition: 0.2s;
+        background-color: rgb(234, 200, 51);
+    
+    }
+    /* header ends */
+    
+    /* services sec starts */
+    .services-sec{
+        padding: 80px 0px;
+    }
+    .services-sec h2{
+        font-size: 50px;
+        font-weight: 400;
+    }
+    .services-sec-heading-bottom-line{
+        border: 2px solid rgb(255, 217, 54);
+        width: 120px;
+        margin-bottom: 40px;
+    }
+    .services-sec h3{
+        padding: 0px 20px;
+        margin-top: 30px;
+        margin-bottom: 10px;
+        font-size: 25px;
+        font-weight: 400;
+    }
+    .services-sec p{
+        padding: 0px 20px;
+        width: 315px;
+    }
+    .services-sec img{
+        padding: 50px 20px 0px 20px; 
+        width: 100%;
+    }
+    .services-sec div div{
+        padding: 0px;
+    }
+    /* services sec ends */
+    
+    
+    /* quotes sec starts */
+    .quotes-sec{
+        padding: 40px 0px;
+        background-color: rgb(246, 248, 245);
+    }
+    .quotes{
+        height: 20px;
+        opacity: 0.3;
+    }
+    .quotes-sec p{
+        padding: 0px 20px;
+        margin: 30px 0px;
+        font-size: 18px;
+        width: auto;
+        text-align: center;
+    }
+    .avatar-image{
+        height: 80px;
+    }
+    .quotes-sec-content span{
+        margin-top: 10px;
+        font-size: 20px;
+        color: black;
+    }
+    /* quotes sec ends */
+    
+    
+    /* about sec starts */
+    .about-sec{
+        padding: 70px 0px;
+    }
+    .about-sec h2{
+        font-size: 18px;
+        font-weight: 400;
+        color: rgb(112, 142, 90);
+    }
+    .about-sec-para1{
+        min-width: 290px;
+        max-width: 540px;
+        margin: 20px 0px 30px 0px;
+        font-size: 30px;
+        line-height: 45px;
+        color: rgb(90, 121, 68);
+    }
+    .about-sec button{
+        margin-top: 20px;
+        color: rgb(109, 139, 86);
+        border: 1px solid rgb(109, 139, 86);
+    }
+    .about-sec img{
+        margin-top: 80px;
+        min-width: 290px;
+        width: 100%;
+        padding: 0px 0px;
+        margin-left: 0px;
+    }
+    /* about sec ends */
+    
+    
+    /* questions sec starts */
+    .questions-sec{
+        padding: 80px 0px;
+        background-image: url(./banner\ 2.jpg);
+        background-size: cover;
+    }
+    .questions-sec h2{
+        font-size: 50px;
+        font-weight: 400;
+        color: rgb(255, 255, 255);
+    }
+    .questions-sec p{
+        margin: 30px 0px;
+        width: 100%;
+        text-align: center;
+        font-size: 20px;
+        font-weight: 400;
+        color: rgb(255, 255, 255);
+    }
+    .questions-sec button{
+        transition: 0.2s;
+        background-color: rgb(255, 217, 54);
+        border: none;
+        color: rgb(69, 69, 69);
+    }
+    .questions-sec button:hover{
+        transition: 0.2s;
+        background-color: rgb(234, 200, 51);
+    
+    }
+    /* questions sec ends */
+    
+    
+    /* footer starts */
+    footer{
+        padding: 20px 0px;
+        position: relative;
+    }
+    .footer-row{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    footer ul{
+        transform: translateY(9px);
+        display: flex;
+        align-items: center;
+    }
+    footer a{
+        display: inline-block;
+        margin-bottom: 10px;   
+        font-size: 16px;
+        margin: 0px 10px;
+        color: rgb(65, 94, 44);
+    }
+    footer a:hover{
+        text-decoration: none;
+    }
+    .footer-logo{
+        margin: 15px 0px;
+        height: 50px;
+        transform: translateX(0px);
+    }
+    .footer-row span{
+        color: rgb(65, 94, 44);
+    }
+    /* footer ends */
+}
+/* xs screen ends */
+
+/* sm screen starts */
+@media (min-width: 576px) and (max-width: 767.98px){
+    .button{
+        height: 50px;
+        width: 160px;
+        border: 1px solid white;
+        background-color: transparent;
+        color: white;
+        border-radius: 5px;
+    }
+    .text-color{
+        color: rgb(82, 104, 65);
+    }
+    .flex-col{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .sec-para{
+        font-size: 19px;
+        color: rgb(144, 171, 123);
+        line-height: 33px;
+    }
+    /* header starts */
+    /* navbar starts */
+    #nav{
+        z-index: 2;
+        top: 0px;
+        background-color: aqua;
+    
+    }
+    #nav-logo{
+        margin-right: 0px!important;
+    }
+    .nav-logo-image{
+        margin-top: 10px;
+        height: 60px;
+    }
+    #nav a{
+        margin-right: 20px;
+        color: white;
+        font-size: 18px;
+    }
+    /* navbar ends */
+    header{
+        position: relative;
+        height: 720px;
+     
+        
+    }
+    .carousel1{
+        height: 720px;
+        background-image: url(./banner\ 1.jpg);
+        background-size: 100% 100%;
+        background-color: rgb(149, 149, 149);
+        background-blend-mode: multiply;
+    }
+    .carousel2{
+        height: 720px;
+        width: 100%;
+        background-image: url(./banner\ 2.jpg);
+        background-size: 100% 100%;
+        background-color: rgb(149, 149, 149);
+        background-blend-mode: multiply;
+    }
+    .carousel3{
+        height: 720px;
+        width: 100%;
+        background-image: url(./banner\ 3.jpg);
+        background-size: 100% 100%;
+        background-color: rgb(149, 149, 149);
+        background-blend-mode: multiply;
+    }
+    .banner{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        text-align: center;
+        color: white;
+    }
+    h1{
+        line-height: 80px;
+        font-size: 55px;
+    }
+    h1 span{
+        display: block;
+        font-size: 80px;
+    }
+    .banner p{
+        padding-top: 40px;
+        padding-bottom: 30px;
+        font-size: 18px;
+        width: 300px;
+        text-align: center;
+    }
+    .banner button{
+        transition: 0.2s;
+        background-color: rgb(255, 217, 54);
+        border: none;
+        color: rgb(69, 69, 69);
+    }
+    .banner button:hover{
+        transition: 0.2s;
+        background-color: rgb(234, 200, 51);
+    
+    }
+    /* header ends */
+    
+    /* services sec starts */
+    .services-sec{
+        padding: 80px 0px;
+    }
+    .services-sec h2{
+        font-size: 50px;
+        font-weight: 400;
+    }
+    .services-sec-heading-bottom-line{
+        border: 2px solid rgb(255, 217, 54);
+        width: 120px;
+        margin-bottom: 40px;
+    }
+    .services-sec h3{
+        padding: 0px 0px;
+        margin-top: 30px;
+        margin-bottom: 10px;
+        font-size: 25px;
+        font-weight: 400;
+    }
+    .services-sec p{
+        padding: 0px 0px;
+        width: 540px;
+    }
+    .services-sec img{
+        padding: 50px 0px 0px 0px; 
+        width: 100%;
+    }
+    .services-sec div div{
+        padding: 0px;
+    }
+    /* services sec ends */
+    
+    
+    /* quotes sec starts */
+    .quotes-sec{
+        padding: 40px 0px;
+        background-color: rgb(246, 248, 245);
+    }
+    .quotes{
+        height: 20px;
+        opacity: 0.3;
+    }
+    .quotes-sec p{
+        padding: 0px 20px;
+        margin: 30px 0px;
+        font-size: 25px;
+        width: auto;
+        text-align: center;
+    }
+    .avatar-image{
+        height: 80px;
+    }
+    .quotes-sec-content span{
+        margin-top: 10px;
+        font-size: 20px;
+        color: black;
+    }
+    /* quotes sec ends */
+    
+    
+    /* about sec starts */
+    .about-sec{
+        padding: 70px 0px;
+    }
+    .about-sec h2{
+        font-size: 18px;
+        font-weight: 400;
+        color: rgb(112, 142, 90);
+    }
+    .about-sec-para1{
+        width: auto;
+        margin: 20px 0px 30px 0px;
+        font-size: 30px;
+        line-height: 45px;
+        color: rgb(90, 121, 68);
+    }
+    .about-sec button{
+        margin-top: 20px;
+        color: rgb(109, 139, 86);
+        border: 1px solid rgb(109, 139, 86);
+    }
+    .about-sec img{
+        margin-top: 80px;
+        min-width: 510px;
+        max-width: 100%;
+        padding: 0px 0px;
+        margin-left: 0px;
+    }
+    /* about sec ends */
+    
+    
+    /* questions sec starts */
+    .questions-sec{
+        padding: 80px 0px;
+        background-image: url(./banner\ 2.jpg);
+        background-size: cover;
+    }
+    .questions-sec h2{
+        font-size: 50px;
+        font-weight: 400;
+        color: rgb(255, 255, 255);
+    }
+    .questions-sec p{
+        margin: 30px 0px;
+        width: 100%;
+        text-align: center;
+        font-size: 20px;
+        font-weight: 400;
+        color: rgb(255, 255, 255);
+    }
+    .questions-sec button{
+        transition: 0.2s;
+        background-color: rgb(255, 217, 54);
+        border: none;
+        color: rgb(69, 69, 69);
+    }
+    .questions-sec button:hover{
+        transition: 0.2s;
+        background-color: rgb(234, 200, 51);
+    
+    }
+    /* questions sec ends */
+    
+    
+    /* footer starts */
+    footer{
+        padding: 20px 0px;
+        position: relative;
+    }
+    .footer-row{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    footer ul{
+        transform: translateY(9px);
+        display: flex;
+        align-items: center;
+    }
+    footer a{
+        display: inline-block;
+        margin-bottom: 10px;   
+        font-size: 16px;
+        margin-right: 20px;
+        color: rgb(65, 94, 44);
+    }
+    footer a:hover{
+        text-decoration: none;
+    }
+    .footer-logo{
+        margin: 10px 0px;
+        height: 50px;
+        transform: translateX(10px);
+    }
+    .footer-row span{
+        color: rgb(65, 94, 44);
+    }
+    /* footer ends */
+}
+/* sm screen ends */
+
+
+/* md screen starts */
+@media (min-width: 768px) and (max-width: 991.98px){
+    .button{
+        height: 50px;
+        width: 160px;
+        border: 1px solid white;
+        background-color: transparent;
+        color: white;
+        border-radius: 5px;
+    }
+    .text-color{
+        color: rgb(82, 104, 65);
+    }
+    .flex-col{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .sec-para{
+        font-size: 19px;
+        color: rgb(144, 171, 123);
+        line-height: 33px;
+    }
+    /* header starts */
+    /* navbar starts */
+    #nav{
+        z-index: 2;
+        top: 0px;
+        background-color: aqua;
+    
+    }
+    #nav-logo{
+        margin-right: 0px!important;
+    }
+    .nav-logo-image{
+        margin-top: 10px;
+        height: 60px;
+    }
+    #nav a{
+        margin-right: 20px;
+        color: white;
+        font-size: 18px;
+    }
+    /* navbar ends */
+    header{
+        position: relative;
+        height: 720px;
+     
+        
+    }
+    .carousel1{
+        height: 720px;
+        background-image: url(./banner\ 1.jpg);
+        background-size: 100% 100%;
+        background-color: rgb(149, 149, 149);
+        background-blend-mode: multiply;
+    }
+    .carousel2{
+        height: 720px;
+        width: 100%;
+        background-image: url(./banner\ 2.jpg);
+        background-size: 100% 100%;
+        background-color: rgb(149, 149, 149);
+        background-blend-mode: multiply;
+    }
+    .carousel3{
+        height: 720px;
+        width: 100%;
+        background-image: url(./banner\ 3.jpg);
+        background-size: 100% 100%;
+        background-color: rgb(149, 149, 149);
+        background-blend-mode: multiply;
+    }
+    .banner{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        text-align: center;
+        color: white;
+    }
+    h1{
+        line-height: 80px;
+        font-size: 55px;
+    }
+    h1 span{
+        display: block;
+        font-size: 80px;
+    }
+    .banner p{
+        padding-top: 40px;
+        padding-bottom: 30px;
+        font-size: 18px;
+        width: 300px;
+        text-align: center;
+    }
+    .banner button{
+        transition: 0.2s;
+        background-color: rgb(255, 217, 54);
+        border: none;
+        color: rgb(69, 69, 69);
+    }
+    .banner button:hover{
+        transition: 0.2s;
+        background-color: rgb(234, 200, 51);
+    
+    }
+    /* header ends */
+    
+    /* services sec starts */
+    .services-sec{
+        padding: 80px 0px;
+    }
+    .services-sec h2{
+        font-size: 50px;
+        font-weight: 400;
+    }
+    .services-sec-heading-bottom-line{
+        border: 2px solid rgb(255, 217, 54);
+        width: 120px;
+        margin-bottom: 40px;
+    }
+    .services-sec h3{
+        padding: 0px 0px;
+        margin-top: 30px;
+        margin-bottom: 10px;
+        font-size: 25px;
+        font-weight: 400;
+    }
+    .services-sec p{
+        padding: 0px 0px;
+        width: 540px;
+    }
+    .services-sec img{
+        padding: 50px 0px 0px 0px; 
+        width: 100%;
+    }
+    .services-sec div div{
+        padding: 0px;
+    }
+    /* services sec ends */
+    
+    
+    /* quotes sec starts */
+    .quotes-sec{
+        padding: 40px 0px;
+        background-color: rgb(246, 248, 245);
+    }
+    .quotes{
+        height: 20px;
+        opacity: 0.3;
+    }
+    .quotes-sec p{
+        padding: 0px 20px;
+        margin: 30px 0px;
+        font-size: 25px;
+        width: auto;
+        text-align: center;
+    }
+    .avatar-image{
+        height: 80px;
+    }
+    .quotes-sec-content span{
+        margin-top: 10px;
+        font-size: 20px;
+        color: black;
+    }
+    /* quotes sec ends */
+    
+    
+    /* about sec starts */
+    .about-sec{
+        padding: 70px 0px;
+    }
+    .about-sec h2{
+        font-size: 18px;
+        font-weight: 400;
+        color: rgb(112, 142, 90);
+    }
+    .about-sec-para1{
+        width: auto;
+        margin: 20px 0px 30px 0px;
+        font-size: 30px;
+        line-height: 45px;
+        color: rgb(90, 121, 68);
+    }
+    .about-sec button{
+        margin-top: 20px;
+        color: rgb(109, 139, 86);
+        border: 1px solid rgb(109, 139, 86);
+    }
+    .about-sec img{
+        margin-top: 80px;
+        min-width: 690px;
+        max-width: 100%;
+        padding: 0px 0px;
+        margin-left: 0px;
+    }
+    /* about sec ends */
+    
+    
+    /* questions sec starts */
+    .questions-sec{
+        padding: 80px 0px;
+        background-image: url(./banner\ 2.jpg);
+        background-size: cover;
+    }
+    .questions-sec h2{
+        font-size: 50px;
+        font-weight: 400;
+        color: rgb(255, 255, 255);
+    }
+    .questions-sec p{
+        margin: 30px 0px;
+        width: 100%;
+        text-align: center;
+        font-size: 20px;
+        font-weight: 400;
+        color: rgb(255, 255, 255);
+    }
+    .questions-sec button{
+        transition: 0.2s;
+        background-color: rgb(255, 217, 54);
+        border: none;
+        color: rgb(69, 69, 69);
+    }
+    .questions-sec button:hover{
+        transition: 0.2s;
+        background-color: rgb(234, 200, 51);
+    
+    }
+    /* questions sec ends */
+    
+    
+    /* footer starts */
+    footer{
+        padding: 20px 0px;
+        position: relative;
+    }
+    .footer-row{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    footer ul{
+        transform: translateY(9px);
+        display: flex;
+        align-items: center;
+    }
+    footer a{
+        display: inline-block;
+        margin-bottom: 10px;   
+        font-size: 16px;
+        margin-right: 20px;
+        color: rgb(65, 94, 44);
+    }
+    footer a:hover{
+        text-decoration: none;
+    }
+    .footer-logo{
+        margin: 10px 0px;
+        height: 50px;
+        transform: translateX(10px);
+    }
+    .footer-row span{
+        color: rgb(65, 94, 44);
+    }
+    /* footer ends */
+}
+/* md screen ends */
+
+
+
+/* lg screen starts */
+@media (min-width: 992px) and (max-width: 1199.98px){
+
+    .button{
+        height: 50px;
+        width: 160px;
+        border: 1px solid white;
+        background-color: transparent;
+        color: white;
+        border-radius: 5px;
+    }
+    .text-color{
+        color: rgb(82, 104, 65);
+    }
+    .flex-col{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .sec-para{
+        font-size: 19px;
+        color: rgb(144, 171, 123);
+        line-height: 33px;
+    }
+    
+    /* header starts */
+    header{
+        height: 720px;
+        position: relative;
+    }
+    .banner-images{
+        top: 0px;
+        position: absolute;
+        width: 100%;
+    }
+    .carousel1{
+        height: 720px;
+        background-image: url(./banner\ 1.jpg);
+        background-size: 100% 100%;
+        background-color: rgb(149, 149, 149);
+        background-blend-mode: multiply;
+    }
+    .carousel2{
+        height: 720px;
+        width: 100%;
+        background-image: url(./banner\ 2.jpg);
+        background-size: 100% 100%;
+        background-color: rgb(149, 149, 149);
+        background-blend-mode: multiply;
+    }
+    .carousel3{
+        height: 720px;
+        width: 100%;
+        background-image: url(./banner\ 3.jpg);
+        background-size: 100% 100%;
+        background-color: rgb(149, 149, 149);
+        background-blend-mode: multiply;
+    }
+    /* navbar starts */
+    #nav{
+        z-index: 2;
+        top: 0px;
+    
+    }
+    #nav-logo{
+        margin-top: 5px;
+        margin-right: 180px!important;
+        
+    }
+    #nav-toggle-icon{
+        width: 80px!important;
+    }
+    #nav a{
+        margin-right: 20px;
+        color: white;
+        font-size: 18px;
+    }
+    #nav button{
+        height: 50px;
+        width: 160px;
+        border: 1px solid white;
+        background-color: transparent;
+        color: white;
+        border-radius: 5px;
+    
+    }
+    #nav-toggle-icon{
+        margin-top: 5px;
+        background-color: white!important;
+    }
+    /* navbar ends */
+    .banner{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        text-align: center;
+        color: white;
+    }
+    h1{
+        line-height: 80px;
+        font-size: 55px;
+    }
+    h1 span{
+        display: block;
+        font-size: 120px;
+    }
+    .banner p{
+        padding-top: 40px;
+        padding-bottom: 30px;
+        font-size: 18px;
+        width: 300px;
+        text-align: center;
+    }
+    .banner button{
+        transition: 0.2s;
+        background-color: rgb(255, 217, 54);
+        border: none;
+        color: rgb(69, 69, 69);
+    }
+    .banner button:hover{
+        transition: 0.2s;
+        background-color: rgb(234, 200, 51);
+    
+    }
+    /* navbar ends */
+    /* header ends */
+    
+    /* services sec starts */
+    .services-sec{
+        padding: 80px 0px;
+    }
+    .services-sec h2{
+        font-size: 50px;
+        font-weight: 400;
+    }
+    .services-sec-heading-bottom-line{
+        border: 2px solid rgb(255, 217, 54);
+        width: 120px;
+        margin-bottom: 80px;
+    }
+    .services-sec h3{
+        margin-top: 30px;
+        margin-bottom: 10px;
+        font-size: 25px;
+        font-weight: 400;
+    }
+    .services-sec p{
+        width: 290px;
+    }
+    .services-sec img{
+        width: 290px;
+    }
+    /* services sec ends */
+    
+    /* quotes sec starts */
+    .quotes-sec{
+        padding: 70px 0px;
+        background-color: rgb(246, 248, 245);
+    }
+    .quotes{
+        opacity: 0.3;
+    }
+    .quotes-sec p{
+        margin: 30px 0px;
+        font-size: 30px;
+        width: 800px;
+        text-align: center;
+    }
+    .avatar-image{
+        height: 80px;
+    }
+    .quotes-sec-content span{
+        margin-top: 10px;
+        font-size: 20px;
+        color: black;
+    }
+    /* quotes sec ends */
+    
+    /* about sec starts */
+    .about-sec{
+        padding: 70px 0px;
+    }
+    .about-sec h2{
+        font-size: 18px;
+        font-weight: 400;
+        color: rgb(112, 142, 90);
+    }
+    .about-sec-para1{
+        margin: 20px 0px 60px 0px;
+        font-size: 42px;
+        line-height: 55px;
+        color: rgb(90, 121, 68);
+    }
+    .about-sec button{
+        margin-top: 20px;
+        color: rgb(109, 139, 86);
+        border: 1px solid rgb(109, 139, 86);
+    }
+    .about-sec img{
+        margin-left: 70px;
+    }
+    /* about sec ends */
+    
+    
+    /* questions sec starts */
+    .questions-sec{
+        padding: 120px 0px;
+        background-image: url(./banner\ 2.jpg);
+        background-size: cover;
+    }
+    .questions-sec h2{
+        font-size: 60px;
+        font-weight: 400;
+        color: rgb(255, 255, 255);
+    }
+    .questions-sec p{
+        margin: 30px 0px;
+        width: 500px;
+        text-align: center;
+        font-size: 20px;
+        font-weight: 400;
+        color: rgb(255, 255, 255);
+    }
+    .questions-sec button{
+        transition: 0.2s;
+        background-color: rgb(255, 217, 54);
+        border: none;
+        color: rgb(69, 69, 69);
+    }
+    .questions-sec button:hover{
+        transition: 0.2s;
+        background-color: rgb(234, 200, 51);
+    
+    }
+    /* questions sec ends */
+    
+    /* footer starts */
+    footer{
+        padding: 20px 0px;
+        position: relative;
+    }
+    footer ul{
+        transform: translateY(9px);
+        display: flex;
+        align-items: center;
+    }
+    footer a{   
+        font-size: 16px;
+        margin-right: 20px;
+        color: rgb(65, 94, 44);
+    }
+    footer a:hover{
+        text-decoration: none;
+    }
+    .footer-logo{
+        height: 50px;
+        transform: translateX(-30px);
+    }
+    .footer-row{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .footer-row span{
+        color: rgb(65, 94, 44);
+    }
+    /* footer ends */    
+}
+/* lg screen ends */
